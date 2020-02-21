@@ -10,7 +10,7 @@ Voici une capture d'écran de la **todo-app** que nous allons créer dans ce tut
 * **Maven**, [Comment l'installer ?](https://howtodoinjava.com/maven/how-to-install-maven-on-windows/)
 * **MongoDB**, [Installation](https://www.mongodb.com/download-center/community)
 * **npm**, [Installation](https://nodejs.org/en/download/), c'est l'installateur du Node.js, npm est inclus avec
-* **Visual studio code**, [Installation](https://code.visualstudio.com/), nous utiliserons cet IDE sur le projet Angular
+* **Visual studio code**, [Installation](https://code.visualstudio.com/), nous utiliserons ce éditeur de text sur le projet Angular
 * **IntelliJ IDEA Community**, [Installation](https://www.jetbrains.com/idea/download/#section=windows), nous utiliserons cet IDE sur le projet Spring Boot
 
 ## Création du back-end Spring Boot
@@ -201,7 +201,7 @@ public class TodoController {
   }  
 }
 ```
-L'annotation `@CrossOrigin` dans le contrôleur ci-dessus est utilisée pour activer les requêtes d'origine croisée. Ceci est nécessaire car nous allons accéder aux API à partir du serveur frontal angular.
+L'annotation `@CrossOrigin` dans le contrôleur ci-dessus est utilisée pour activer les requêtes d'origine croisée. Ceci est nécessaire car nous allons accéder aux API à partir du serveur front-end angular.
 
 D'accord! Notre travail back-end est maintenant terminé. Vous pouvez exécuter l'application en utilisant -
 ```bash
