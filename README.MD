@@ -747,7 +747,7 @@ $ mvn spring-boot:run
 ```
 Le front-end `angular` peut être exécuté en tapant la commande `ng serve`. Il démarrera sur le port 4200 -
 ```bash
-$ cd angular-frontend
+$ cd todoapp-ui
 $ ng serve --open
 ```
 Amusez-vous à travailler avec l'application maintenant 😊.
